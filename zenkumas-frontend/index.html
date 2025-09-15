@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Döşemelik Kumaş | Zen Kumaş</title>
+  <meta name="description" content="Döşemelik kumaş çeşitlerini güvenle inceleyin. Top ve kesmece seçenekleriyle kaliteli kumaşlar Zen Kumaş’ta." />
+  <meta name="keywords" content="döşemelik kumaş, keten kumaş, viskon kumaş, top kumaş, kesmece kumaş, uygun kumaş, kaliteli kumaş" />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+<!-- HEADER -->
+<header id="site-header" class="bg-white shadow-md h-32 flex items-center justify-between px-8 sticky top-0 z-50 transition-transform duration-300">
+
+  <!-- Sol: Logo (sol kenardan 5cm civarı boşluk) -->
+  <div class="flex items-center pl-16"> <!-- ← Burada boşluk -->
+  <img src="logo.jpeg" alt="Zen Tekstil Logo" style="height: 120px; width: auto; padding-left: 40px;" />
+
+  </div>
+
+  <!-- Orta: Menü (Sayfa ortasında) -->
+  <div class="absolute left-1/2 transform -translate-x-1/2">
+    <nav class="flex space-x-8 text-gray-700 font-medium text-lg">
+      <a href="#" class="hover:text-blue-600 transition" id="anasayfa-link">Ana Sayfa</a>
+      <a href="#" class="hover:text-blue-600 transition" id="kumaslar-link">Kumaşlar</a>
+      <a href="#hakkimizda" class="hover:text-blue-600 transition">Hakkımızda</a>
+      <a href="#iletisim" class="hover:text-blue-600 transition">İletişim</a>
+    </nav>
+  </div>
+
+  <!-- Sağ: Giriş / Kayıt -->
+ <!-- Sağ: Giriş / Kayıt veya Profil -->
+<div id="kullanici-alani" class="relative flex items-center space-x-4 text-gray-700 font-medium text-lg">
+  <!-- JS ile doldurulacak -->
+</div>
+
+</header>
+
+
+
+
+  <!-- SWIPER SLIDER -->
+  <section class="w-full max-w-6xl mx-auto mt-10 px-4" id="slider-section">
+    <div class="swiper mySwiper rounded-lg shadow-lg">
+      <div class="swiper-wrapper" id="swiper-wrapper">
+        <!-- JS doldurur -->
+      </div>
+    </div>
+  </section>
+
+  <!-- KUMAŞLAR BÖLÜMÜ - başta gizli  -->
+  <section id="kumaslar" class="hidden py-12 flex gap-6 px-4">
+    <aside class="w-[200px] bg-white p-4 rounded shadow-md h-fit sticky top-24">
+      <h3 class="text-xl font-semibold mb-1 px-2">Kumaş Türleri</h3>
+      <ul id="kumas-turleri" class="cursor-pointer text-blue-700 space-y-1">
+        <li data-tur="all" class="font-bold hover:underline px-2">Tüm Kumaşlar</li>
+        <li data-tur="soho" class="hover:underline px-2">Soho</li>
+        <li data-tur="babyface" class="hover:underline px-2">Babyface</li>
+        <li data-tur="yonsuz_luna" class="hover:underline px-2">Yönsüz Luna</li>
+        <li data-tur="coco" class="hover:underline px-2">Coco</li>
+        <li data-tur="otto" class="hover:underline px-2">Otto</li>
+        <li data-tur="anka" class="hover:underline px-2">Anka</li>
+        <li data-tur="puffy" class="hover:underline px-2">Puffy</li>
+        <li data-tur="zuma" class="hover:underline px-2">Zuma</li>
+        <li data-tur="santa" class="hover:underline px-2">Santa</li>
+      </ul>
+    </aside>
+
+    <div id="kumaslar-container" class="flex-1 grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- JS doldurur -->
+    </div>
+  </section>
+
+  <!-- HAKKIMIZDA -->
+  <section id="hakkimizda" class="bg-gray-100 py-10 mt-12">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-xl font-semibold mb-4">Hakkımızda</h3>
+      <p class="text-gray-700">
+        Zen Kumaş olarak, kaliteli kumaşları uygun fiyatlarla hem top hem de kesmece olarak sizlere sunuyoruz.
+        Kartela resimleriyle beğendiğiniz kumaşları kolayca seçebilir, güvenle alışveriş yapabilirsiniz.
+      </p>
+    </div>
+  </section>
+
+  <!-- İLETİŞİM -->
+  <footer id="iletisim" class="bg-black text-white py-8 mt-12">
+
+    <div class="max-w-4xl mx-auto text-center space-y-2">
+      <h4 class="text-xl font-semibold">İletişim</h4>
+ <p>
+  Telefon: 
+  <a href="tel:+905327081625" class="underline hover:text-gray-300 transition">
+    0 (532) 708 16 25
+  </a>
+</p>
+
+<p>
+  E‑posta: 
+  <a href="mailto:emiir1230@gmail.com" class="underline hover:text-gray-300 transition">
+    emiir1230@gmail.com
+  </a>
+</p>
+
+      <p>Adres :  Altınova Fuar Caddesi No:61 Ofis No 5236, 16090 Osmangazi̇/Bursa </p>
+    </div>
+  </footer>
+<div id="chatbot-widget" class="fixed bottom-20 right-4 w-72 bg-white shadow-lg rounded-2xl border border-gray-200 hidden flex-col overflow-hidden z-50">
+  <div class="bg-blue-600 text-white px-4 py-2 flex justify-between items-center">
+    <span class="font-semibold">Zen Kumaş Asistan</span>
+    <button id="chatbot-close" class="text-white hover:text-gray-200">✕</button>
+  </div>
+  <div id="chatbot-messages" class="p-3 h-64 overflow-y-auto text-sm space-y-2"></div>
+  <div class="p-2 border-t flex">
+    <input id="chatbot-input" type="text" placeholder="Mesaj yazın..." class="flex-1 px-2 py-1 text-sm border rounded-l focus:outline-none" />
+    <button id="chatbot-send" class="bg-blue-600 text-white px-3 rounded-r">➤</button>
+  </div>
+</div>
+
+<!-- AÇMA/KAPAMA BUTONU -->
+<button id="chatbot-toggle" class="fixed bottom-4 right-4 bg-black text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg z-40">
+  Z
+</button>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <!-- Özel JS -->
+  <script>
+  const apiBase = 'http://localhost:3000';
+  let tumKumaslar = [];
+
+  // 1) SLIDER verilerini çek
+  async function yukleSlider() {
+    try {
+      const wrapper = document.getElementById('swiper-wrapper');
+      const res = await fetch(`${apiBase}/kumaslar/vitrin`);
+      const data = await res.json();
+
+      data.forEach(k => {
+        const slide = document.createElement('div');
+        slide.className = 'swiper-slide flex items-center justify-start';
+        slide.innerHTML = `
+          <img src="${apiBase}/uploads/${k.kartela_resmi}" 
+               alt="${k.isim}" 
+               class="w-1/2 h-72 object-contain rounded shadow-md ml-0" />
+          <div class="w-1/2 pl-6 opacity-0 transition-opacity duration-700 delay-[300ms]" style="transform: translateY(10px);">
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">${k.isim}</h3>
+            <p class="text-gray-600 text-lg">${k.aciklama || 'Açıklama bulunamadı.'}</p>
+          </div>
+        `;
+        wrapper.appendChild(slide);
+      });
+
+      new Swiper('.mySwiper', {
+        loop: true,
+        autoplay: { delay: 4000, disableOnInteraction: false },
+        centeredSlides: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+      });
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          const textDiv = entry.target.querySelector('div');
+          if (entry.isIntersecting) {
+            textDiv.classList.remove('opacity-0');
+            textDiv.classList.add('opacity-100');
+          } else {
+            textDiv.classList.remove('opacity-100');
+            textDiv.classList.add('opacity-0');
+          }
+        });
+      }, { threshold: 0.5 });
+
+      document.querySelectorAll('.swiper-slide').forEach(slide => observer.observe(slide));
+
+    } catch (err) {
+      console.error('Slider verisi alınamadı', err);
+    }
+  }
+
+  async function yukleKumaslar() {
+    if (tumKumaslar.length) return;
+    try {
+      const res = await fetch(`${apiBase}/kumaslar`);
+      tumKumaslar = await res.json();
+    } catch (err) {
+      console.error('Kumaş verisi alınamadı', err);
+    }
+  }
+
+function kartOlustur(k) {
+    const card = document.createElement('div');
+    card.className = 'bg-white shadow-sm p-4 rounded-lg';
+
+    card.innerHTML = `
+      <img src="${apiBase}/uploads/${k.kartela_resmi}" alt="${k.isim} Kartela" class="w-full max-h-[700px] object-contain rounded-md mx-auto" />
+      <h4 class="text-xl font-semibold mt-3">${k.isim}</h4>
+    `;
+    return card;
+}
+
+
+
+  function gosterKumaslar(filtre) {
+    const container = document.getElementById('kumaslar-container');
+    container.innerHTML = '';
+    const map = { top: 'Sadece Top', kesmece: 'Sadece Kesmece', ikisi: 'Top ve Kesmece' };
+    const arr = filtre === 'all' ? tumKumaslar : tumKumaslar.filter(k => k.satici_turu === filtre);
+    if (!arr.length) {
+      container.innerHTML = '<p class="col-span-2 text-center text-gray-600">Bu türde kumaş bulunamadı.</p>';
+      return;
+    }
+    arr.forEach(k => container.appendChild(kartOlustur(k, map)));
+  }
+
+  // === EVENT BINDINGS ===
+  document.getElementById('kumaslar-link').addEventListener('click', async (e) => {
+    e.preventDefault();
+
+    // FADE GEÇİŞ İÇİN class kullan
+    const slider = document.getElementById('slider-section');
+    const kumaslar = document.getElementById('kumaslar');
+
+    slider.classList.add('opacity-0', 'pointer-events-none');
+    setTimeout(() => {
+      slider.classList.add('hidden');
+      kumaslar.classList.remove('hidden');
+      kumaslar.classList.add('opacity-0');
+      setTimeout(() => {
+        kumaslar.classList.remove('opacity-0');
+      }, 50);
+    }, 300);
+
+    await yukleKumaslar();
+    gosterKumaslar('all');
+
+    document.querySelectorAll('#kumas-turleri li').forEach(li => li.classList.remove('font-bold'));
+    document.querySelector('#kumas-turleri li[data-tur="all"]').classList.add('font-bold');
+
+    kumaslar.scrollIntoView({ behavior: 'smooth' });
+  });
+
+  document.getElementById('anasayfa-link').addEventListener('click', (e) => {
+    e.preventDefault();
+
+    const slider = document.getElementById('slider-section');
+    const kumaslar = document.getElementById('kumaslar');
+
+    kumaslar.classList.add('opacity-0');
+    setTimeout(() => {
+      kumaslar.classList.add('hidden');
+      slider.classList.remove('hidden');
+      slider.classList.remove('opacity-0', 'pointer-events-none');
+    }, 300);
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  document.getElementById('kumas-turleri').addEventListener('click', (e) => {
+    if (e.target.tagName !== 'LI') return;
+    const tur = e.target.dataset.tur;
+    document.querySelectorAll('#kumas-turleri li').forEach(li => li.classList.remove('font-bold'));
+    e.target.classList.add('font-bold');
+    gosterKumaslar(tur);
+  });
+
+  // İlk iş slider yükle
+  yukleSlider();
+  // === HEADER KAYBOL SUNUMU ===
+let previousScroll = window.scrollY;
+const header = document.getElementById("site-header");
+
+window.addEventListener("scroll", () => {
+  const currentScroll = window.scrollY;
+
+  if (currentScroll > previousScroll && currentScroll > 100) {
+    header.style.transform = "translateY(-100%)"; // Gizle
+  } else {
+    header.style.transform = "translateY(0)"; // Göster
+  }
+
+  previousScroll = currentScroll;
+});
+function kullaniciArayuzunuGuncelle() {
+  const alan = document.getElementById('kullanici-alani');
+  const user = JSON.parse(localStorage.getItem('user'));
+
+  if (user) {
+    const ilkHarf = user.isim?.trim()?.[0]?.toUpperCase() || 'K';
+ alan.innerHTML = `
+  <div class="relative group">
+    <div class="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center text-lg font-semibold cursor-pointer">
+      ${ilkHarf}
+    </div>
+    <div class="absolute right-0 mt-2 w-40 bg-white border rounded shadow-md hidden group-hover:block z-50">
+      <a href="/talep.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Taleplerim</a>
+      <button onclick="cikisYap()" class="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-gray-100">Çıkış Yap</button>
+    </div>
+  </div>
+`;
+
+  } else {
+    alan.innerHTML = `
+      <a href="giris.html" class="hover:text-blue-600 transition">Giriş Yap</a>
+      <a href="kayit.html" class="hover:text-blue-600 transition">Hesap Oluştur</a>
+    `;
+  }
+}
+
+function cikisYap() {
+  localStorage.removeItem('user');
+  window.location.href = 'index.html'; // veya './' ya da '/index.html' ana sayfa dosyana göre
+}
+
+
+kullaniciArayuzunuGuncelle();
+// Basit intent tabanlı yanıtlar
+const chatbotResponses = {
+  "merhaba": "Merhaba 👋 Zen Kumaş’a hoş geldiniz. Size nasıl yardımcı olabilirim?",
+  "kumaş": "Döşemelik, keten, viskon, top ve kesmece kumaşlarımız mevcut. Kumaşlar menüsünden inceleyebilirsiniz.",
+  "fiyat": "Kumaş fiyatlarımız türüne göre değişiyor. Hangi kumaşı istediğinizi söylerseniz size detay verebilirim.",
+  "adres": "Adresimiz: Altınova Fuar Caddesi No:61 Ofis No 5236, Osmangazi/Bursa.",
+  "telefon": "Bize 0 (532) 708 16 25 numarasından ulaşabilirsiniz.",
+  "mail": "E-posta adresimiz: emiir1230@gmail.com",
+  "çalışma saatleri": "Pazartesi-Cuma 09:00-18:00 arası hizmet veriyoruz.",
+  "kampanya": "Şu an top ve kesmece kumaşlarda %10 indirim mevcut!",
+  "teslimat": "Siparişleriniz 2-5 iş günü içerisinde adresinize teslim edilir.",
+  "iade": "Kumaşlarda 14 gün içerisinde koşulsuz iade hakkınız vardır.",
+  "vitrin": "Vitrindeki kumaşlarımız: Soho, Babyface, Yönsüz Luna ve diğerleri.",
+  "yardım": "Sorularınız için bana her zaman yazabilirsiniz. Kumaş, fiyat veya iletişim gibi konularda yardımcı olabilirim."
+};
+
+
+// CHATBOT ELEMENTLERİ
+const widget = document.getElementById("chatbot-widget");
+const toggleBtn = document.getElementById("chatbot-toggle");
+const closeBtn = document.getElementById("chatbot-close");
+const messagesDiv = document.getElementById("chatbot-messages");
+const input = document.getElementById("chatbot-input");
+const sendBtn = document.getElementById("chatbot-send");
+
+// Açma butonu
+toggleBtn.addEventListener("click", () => {
+  widget.classList.remove("hidden");
+  toggleBtn.style.display = "none";
+});
+
+// Kapatma butonu
+closeBtn.addEventListener("click", () => {
+  widget.classList.add("hidden");
+  toggleBtn.style.display = "flex";
+});
+
+// Mesaj ekle
+function addMessage(text, sender="bot") {
+  const msg = document.createElement("div");
+  msg.className = sender === "user" ? "text-right" : "text-left";
+  msg.innerHTML = `<span class="inline-block px-2 py-1 rounded ${sender === "user" ? "bg-blue-600 text-white" : "bg-gray-200"}">${text}</span>`;
+  messagesDiv.appendChild(msg);
+  messagesDiv.scrollTop = messagesDiv.scrollHeight;
+}
+
+// Bot yanıtı
+function botReply(userMsg) {
+  userMsg = userMsg.toLowerCase();
+  let response = "Bunu anlayamadım, dilerseniz iletişim bölümünden bize ulaşabilirsiniz.";
+
+  // Öncelikli: regex ile eşleştirme
+  if (/kumaş|çeşit|vitrin/.test(userMsg)) {
+    response = "Kumaşlarımız hakkında bilgi almak için web sitemizdeki kumaşlar menüsüne bakabilirsiniz.";
+  } else {
+    for (let key in chatbotResponses) {
+      if (userMsg.includes(key)) {
+        response = chatbotResponses[key];
+        break;
+      }
+    }
+  }
+
+  setTimeout(() => addMessage(response, "bot"), 500);
+}
+
+
+// Gönderme
+sendBtn.addEventListener("click", () => {
+  const text = input.value.trim();
+  if (!text) return;
+  addMessage(text, "user");
+  input.value = "";
+  botReply(text);
+});
+
+input.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") sendBtn.click();
+});
+</script>
+</script>
+
+
+
+</body>
+</html>
